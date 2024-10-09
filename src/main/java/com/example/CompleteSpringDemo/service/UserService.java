@@ -63,4 +63,8 @@ public class UserService {
             userRepository.save(user);
         }
     }
+
+    public void test() {
+        System.out.println("working");
+    }
 }
